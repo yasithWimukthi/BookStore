@@ -1,4 +1,4 @@
-package com.bookstore.domain;
+package com.bookstore.bookstore.domain;
 
 import java.util.Collection;
 import java.util.HashSet;
