@@ -14,10 +14,11 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 import com.bookstore.bookstore.domain.security.Authority;
+import com.bookstore.bookstore.domain.security.UserRole;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.bookstore.domain.security.UserRole;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
